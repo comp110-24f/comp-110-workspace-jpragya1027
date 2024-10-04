@@ -5,9 +5,11 @@ from CQs.cq04.coordinates import get_coords
 
 __author__ = "730748160"
 
-# Call concat using global variables created in visualize
+#new global variables
 x = "123"
 y = "abc"
+
+# Call concat using global variables created in visualize
 print(concat(x, y))
 
 
