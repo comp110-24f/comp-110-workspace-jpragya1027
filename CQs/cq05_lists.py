@@ -11,6 +11,7 @@ def double(double_list: list[int]) -> None:
     index:int = 0
     while index < len(double_list):
         double_list[index] = double_list[index] * 2
+        index += 1
 
 list_1: list[int] = [1,2,3]
 list_2: list[int] = list_1
